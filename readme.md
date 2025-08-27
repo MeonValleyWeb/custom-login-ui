@@ -6,6 +6,12 @@ Branded, split-screen WordPress login page with a left branding panel and right 
 
 ---
 
+## Screenshot
+
+![Custom Login UI](screenshot.jpg)
+
+---
+
 ## Features
 
 - Split layout: branding left, form right  
@@ -19,7 +25,7 @@ Branded, split-screen WordPress login page with a left branding panel and right 
 ## File(s)
 
 - `custom-login-ui.php` (MU-plugin)  
-- Optional: `assets/login-logo.svg` (logo)
+- Optional: `assets/sdsa-login-logo.svg` (logo)
 
 ---
 
@@ -53,12 +59,17 @@ Branded, split-screen WordPress login page with a left branding panel and right 
 ### Logo source order
 Edit `get_logo_url()` in `custom-login-ui.php`:
 
-1. **Attachment ID** (replace `16752` with your media ID)
+1. **Attachment ID** (replace `16752` with your media ID)  
 2. **Theme asset**:  
-   `assets/images/sdsa-login-logo.svg`
+   `assets/images/sdsa-login-logo.svg`  
 3. **Uploads path**:  
-   `uploads/2025/08/sdsa-login-logo.svg`
+   `uploads/2025/08/sdsa-login-logo.svg`  
 4. **MU-plugin asset**:  
-   `mu-plugins/assets/sdsa-login-logo.svg`
+   `mu-plugins/assets/sdsa-login-logo.svg`  
 
 Place your logo in one of those locations or change paths as needed.
+
+---
+
+### Text content
+Edit in `login_header_wrapper()`:
