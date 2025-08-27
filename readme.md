@@ -8,7 +8,7 @@ Branded, split-screen WordPress login page with a left branding panel and right 
 
 ## Screenshot
 
-![Custom Login UI](screenshot.jpg)
+![Custom Login UI](Screenshot.jpg)
 
 ---
 
